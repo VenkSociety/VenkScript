@@ -1,0 +1,22 @@
+# This is a comment!
+say("test") # This is a comment too!
+
+# Variables
+num x = 2
+if (x == 2) then say("X = 2") else say("X != 2")
+say(x)
+
+if (isNumber(x)) then say("X is a string") else say("X is not a string")
+
+# Functions
+begin function()
+	say("t")
+quit
+
+function()
+
+begin inception()
+	function()
+quit
+
+inception()
